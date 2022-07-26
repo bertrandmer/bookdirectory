@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const api = require('./src/api');
 
 const app = express();
 const PORT = 5000;
